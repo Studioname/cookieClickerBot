@@ -1,8 +1,6 @@
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 import time
-import selenium
-from selenium.webdriver.common.action_chains import ActionChains
+
 
 driver_path = r"C:\Users\Conan\Development\chromedriver_win32\chromedriver"
 driver = webdriver.Chrome(driver_path)
